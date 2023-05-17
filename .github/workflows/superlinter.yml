@@ -1,0 +1,17 @@
+linters:
+  # Python linter
+  python:
+    # Enable linter
+    enabled: true
+    # Only run the linter for .py files
+    patterns: ".py"
+    # Linter options
+    options: ""
+  # Markdown linter
+  markdown:
+    # Enable linter
+    enabled: true
+    # Only run the linter for .md files
+    patterns: ".md"
+    # Linter options
+    options: ""
